@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title style="text-align: center; color:purple;">Team AR2 - Vuforia Studio Project</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #d4c3e1;
+        color: #333;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    .slideshow {
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .qr-code {
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin-top: 20px;
+    }
+    .qr-code img {
+        max-width: 200px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .content {
+        margin-top: 20px;
+    }
+    .text-section {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .text-section p {
+        line-height: 1.6;
+        font-size: 16px;
+        color: #333;
+    }
+    .links {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .links .button {
+        display: inline-block;
+        padding: 12px 24px;
+        width: 200px;
+        background-color: #8A2BE2;
+        color: white;
+        border: 2px solid #8A2BE2;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s;
+        margin-right: 10px;
+    }
+    .links .button:hover {
+        background-color: #6A1B9A;
+        color: white;
+
+    }
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1 style="text-align: center; color: purple;">AR2 - Vuforia Studio Project</h1>
+
+    <div class="content">
+
+        <div class="text-section">
+            <h2 style="text-align: left; color: purple;">Vuforia Studio and Creo Illustrate</h2>
+            <p> Our group was working for FieldLab, where, among other things, mechanical engineers work with robots and AR experiences.
+                We used Vuforia Studio, Creo Illustrate and Vuforia View to complete our tasks.
+
+                Our first task was to create javascript code for bindings, which act as connectors that link augmented
+                reality (AR) experiences with real-world data sources and systems.
+
+                Our second task was to create a sequence for a model in Creo Illustrate, then import it to Vuforia Studio and make it usable
+                there in a way that lets the users choose the step in the animation that they would like to be played. The goal was to be able
+                to watch the complete animation, or just steps of a sequence and skip between them.
+
+                Our final task was to add the possiblity to highlight certain parts of the model and get information
+                from an API, which would then be shown in a pop-up.</p>
+        </div>
+
+
+
+    </div>
+
+    <div class="slideshow">
+        <h2 style="text-align:center; color: purple;">Watch the following slideshow to see some of the goals we have achieved:</h2>
+
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQAre4ZLbC9IagigxUMzvQGsKmY6Pgfkh1fe0e72y_G_jEcp7REIc7iV-d4RDp1Q5VIwFOUTJwbc6E1/embed?start=false&loop=false&delayms=5000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      </div>
+
+
+    <div class="qr-code">
+        <h2 style="text-align:center; color: purple;">Or download Vuforia View onto your mobile phone <a href="https://play.google.com/store/apps/details?id=com.ptc.vuforiaview&pcampaignid=web_share">HERE</a> and try it out yourself:</h2>
+        <a>Sequence, Highlighting, Model-Attributes from API, Set Shader and Hide Model: </a>
+        <iframe src="https://tuni-my.sharepoint.com/personal/jennifer_hensley_tuni_fi/_layouts/15/embed.aspx?UniqueId=31af4fab-22c2-4174-a7c3-b82ce021faf3" width="400" height="400" frameborder="0" scrolling="no" allowfullscreen title="qr_sequence.jpg"></iframe>
+        <a>Scale, Opacity, Visible</a>
+        <iframe src="https://tuni-my.sharepoint.com/personal/jennifer_hensley_tuni_fi/_layouts/15/embed.aspx?UniqueId=c6f53257-4cb2-4694-8960-9c1462b57ac9" width="400" height="400" frameborder="0" scrolling="no" allowfullscreen title="Demo2_shareQR.png"></iframe>
+
+    </div>
+
+    <div class="links">
+        <a href="https://gitlab.tamk.cloud/professional-sw-2024/project-ar2/-/tree/main/javascript?ref_type=heads" class="button">gitlab - javascript code for future use</a>
+        <a href="https://gitlab.tamk.cloud/professional-sw-2024/project-ar2/-/blob/main/README.txt?ref_type=heads" class="button">gitlab - README with technical instructions</a>
+    </div>
+
+</div>
+
+</body>
+</html>
